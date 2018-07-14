@@ -5,6 +5,15 @@
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+
+#redPanel {
+        height: 250px;
+    }
+#motto {
+    font-size: 35px;
+    margin-top: 80px;
+    text-align: center;
+}
 @media (min-width: 576px) {
     #redPanel {
         height: 250px;
@@ -39,11 +48,11 @@
 
 @media (min-width: 1200px) {
     #redPanel {
-        height: 600px;
+        height: 550px;
     }
     #motto {
         font-size: 70px;
-        margin-top: 200px;
+        margin-top: 170px;
         max-width: 700px;
         text-align: left;
     }
