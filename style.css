@@ -1,59 +1,6 @@
-#redPanel {
-    background-color: #BE3D41;
-}
-#motto {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-}
-
-#redPanel {
-        height: 250px;
-    }
-#motto {
-    font-size: 35px;
-    margin-top: 80px;
-    text-align: center;
-}
-@media (min-width: 576px) {
-    #redPanel {
-        height: 250px;
-    }
-    #motto {
-        font-size: 45px;
-        margin-top: 60px;
-        text-align: center;
-    }
-}
-@media (min-width: 768px) {
-    #redPanel {
-        height: 450px;
-    }
-    #motto {
-        font-size: 50px;
-        margin-top: 150px;
-        text-align: left;
-    }
-}
-
-@media (min-width: 992px) {
-    #redPanel {
-        height: 550px;
-    }
-    #motto {
-        font-size: 60px;
-        margin-top: 180px;
-        text-align: left;
-    }
-}
-
-@media (min-width: 1200px) {
-    #redPanel {
-        height: 550px;
-    }
-    #motto {
-        font-size: 70px;
-        margin-top: 170px;
-        max-width: 700px;
-        text-align: left;
-    }
+.infoPanel {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 25px;
+  text-align: center;
 }
