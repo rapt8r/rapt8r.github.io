@@ -1,8 +1,37 @@
 .infoPanel {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 10px;
   text-align: center;
-  background-image: url("infoPanel.png");
-  background-position: center;
-  background-size: auto;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .infoPanel {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .infoPanel {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .infoPanel {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .infoPanel {
+    font-size: 40px;
+  }
 }
